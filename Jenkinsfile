@@ -2,17 +2,17 @@ pipeline{
     agent any
     stages{
         stage("Build"){         
-            step{
+            steps{
                 echo "Welcome to jenkins pipleline"
             }
         }
         stage("Test")  {       
-            step{
+            steps{
                 echo "Welcome to jenkins pipleline"
         }
         }
         stage("Deploy") {        
-            step{
+            steps{
                 echo "Welcome to jenkins pipleline"
     }
         }
