@@ -9,12 +9,11 @@ pipeline{
         stage("Test")  {       
             steps{
                 echo "Welcome to jenkins pipleline"
-        }
+            }
         }
         stage("Deploy") {        
             steps{
                 echo "Welcome to jenkins pipleline"
-    }
-        }
+           }  }
     }
 } 
